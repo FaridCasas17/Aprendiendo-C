@@ -1,10 +1,14 @@
 #include <stdio.h>
 
-void main(void){
+int main(void) {
+    int a, b;
 
-    /*
-    realizar una calculadora que reciba 2 parametros por teclad
-    
-    */
+    printf("Ingrese el primer numero: ");
+    scanf("%d", &a);
+    printf("Ingrese el segundo numero: ");
+    scanf("%d", &b);
 
+    printf("\n Los numero ingresados por el usuario son: %d, %d",a,b);
+
+    return 0;
 }
