@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 int main(void) {
     int a, b;
@@ -8,7 +9,16 @@ int main(void) {
     printf("Ingrese el segundo numero: ");
     scanf("%d", &b);
 
-    printf("\n Los numero ingresados por el usuario son: %d, %d",a,b);
 
-    return 0;
+    // COMPARACION DE NUMEROS:
+    if (a>b){
+        printf("\n A es mayor que B");
+    }
+    else if(a<b){
+        printf("\n A es mayor que B");
+    }
+    else {
+        printf("\nA y B son iguales")
+    }
+
 }
